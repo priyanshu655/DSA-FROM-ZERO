@@ -1,3 +1,5 @@
+//finding fib series
+
 public class problem5 {
     public static int fib(int n){
         // if(n==1){

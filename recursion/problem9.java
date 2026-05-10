@@ -1,3 +1,5 @@
+//better approach for finding x^n in o(n) time 
+
 public class problem9 {
     public static int power(int base,int n){
         if(n==0){

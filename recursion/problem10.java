@@ -1,3 +1,5 @@
+//optimized version of finding x^n in o(logn) time complexity
+
 public class problem10 {
     public static int optimizedpower(int x,int n){
         if(n==0){

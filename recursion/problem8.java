@@ -1,3 +1,5 @@
+//finding the last occurrence of element in array
+
 public class problem8{
     public static int lastOccurence(int a[],int key,int i){
         if(i==a.length){

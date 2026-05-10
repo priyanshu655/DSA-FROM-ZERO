@@ -1,3 +1,5 @@
+//sum of n natural numbers
+
 public class problem4 {
     public static int sumOfN(int n) {
         if(n==1){
