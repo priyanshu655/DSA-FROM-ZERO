@@ -42,7 +42,7 @@ public class mergeSort {
             temp[k++]=a[j++];
         }
 
-        for(i=0,k=si;k<temp.length;k++,i++){
+        for(i=si,k=0;k<temp.length;k++,i++){
             a[i]=temp[k];
         }
     }
