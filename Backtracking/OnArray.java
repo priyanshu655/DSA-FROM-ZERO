@@ -1,3 +1,5 @@
+//we are applying backtracking on array we are having array of example 5 then we keep storing at each index i, i+1 value suppose at index a[0]=1,a[1]=2,a[2]=3 like this and when we reach at base case we have this array [1,2,3,4,5] and now when we return and backtrack reduce value at each index by 2 end reult will [-1,0,1,2,3]
+
 package Backtracking;
 
 public class OnArray {
