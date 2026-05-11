@@ -3,7 +3,11 @@ package Backtracking;
 public class printSubsets {
     public static void Subset(String s,String ans,int i){
         if(i==s.length()){
-            System.out.println(ans);
+            if(ans.length()==0){
+                System.out.println("null");
+            }else{
+                System.out.println(ans);
+            }
             return;
         }
         Subset(s,ans+s.charAt(i),i+1);
