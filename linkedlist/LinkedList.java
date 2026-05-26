@@ -63,14 +63,12 @@ public  class LinkedList{
         size++;
         Node temp=head;
         int count=0;
-        while(temp!=null){
-            if(count==index){
-                newNode.next=temp.next;
-                temp.next=newNode;
-                return;
-            }
-            count++;
-            temp=temp.next;
+       while(count<index-1){
+        temp=temp.next;
+        count++;
+       }
+           newNode.next=temp.next;
+           temp.next=newNode;
         }
     }
 
