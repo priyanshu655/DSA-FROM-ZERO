@@ -1,6 +1,6 @@
 package BinarySearchTree;
 
-public class bst1{
+public class binarytree1{
     public static class Node{
         int data;
         Node right;
