@@ -1,4 +1,4 @@
-package BinarySearchTree;
+package BinaryTree;
 
 public class Height {
     public static class Node{
